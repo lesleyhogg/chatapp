@@ -1,0 +1,7 @@
+h1 Welcome to the Action Cable test chat app!
+= form_for(:session, url: sessions_path) do |f|
+  = f.label :username, 'Enter a username'
+  br
+  = f.text_field :username
+  br
+  = f.submit 'Start chatting'
